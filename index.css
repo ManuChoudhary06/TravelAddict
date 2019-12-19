@@ -1,0 +1,107 @@
+.nav.navbar-nav.navbar-right li a{
+    color: white;
+    font-size: 25px;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: white;
+    font-weight: 500;
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 32px;
+    padding-bottom: 21px;
+}
+
+.navbar-inverse{
+    z-index: 1;
+    background : transparent; !important
+     border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+   
+}
+
+.container{
+    height: 500px;
+    width: 1367.3px;
+}
+
+#vid1{
+  position: absolute ;
+  right: 0;
+  bottom: 0;
+  height: cover;
+  width: 1360px;
+}
+
+.centered {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 68px;
+  font-weight: 550;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.centered1 {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 40px;
+  font-style: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+.default-btn{
+  
+  position: absolute;
+  top: 64%;
+  left: 43%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  color: #fff;
+  display: inline-block;
+    font-size: 1.1em;
+    height: 50px;
+    letter-spacing: 1.25px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    width: 190px
+}
+
+.default-btn:hover
+{
+background-image:none;
+background-color:#F9A46E;
+color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/*#logo{
+    position: absolute;
+    top: 35%;
+    right: 41%;
+    height: 13%;
+    width: 8%;
+    transform: translate(-50% , -50%);
+    color: white;
+    z-index: 1;
+}
+*/
+
+#myCarousel{
+    height: 650px;
+    width: 1350px;
+}
+
+li{
+    font-size: 15px;
+    padding-bottom: 9px;
+}
